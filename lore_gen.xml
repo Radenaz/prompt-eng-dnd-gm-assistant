@@ -1,0 +1,25 @@
+<lore>
+    <example>
+        <user:input>
+            Create an ancient legend about a lost city.
+        </user:input>
+        <score>9</score>
+        <score_reasons>
+            - GOOD: Provides a rich history and mythological details.
+            - GOOD: Includes rumors and mysteries that adventurers can explore.
+            - BAD: Could use a connection to modern-day events.
+        </score_reasons>
+        <assistant:output>
+            <legend>
+                <name>The Sunken City of Aruvalis</name>
+                <origin>The empire of Aruvalis thrived thousands of years ago, its people worshiping the sea goddess Thalora.</origin>
+                <myth>It is said that the city was swallowed by the ocean after its rulers defied the goddess, building a temple of greed rather than faith.</myth>
+                <rumors>
+                    <rumor>Some sailors claim to have seen golden spires beneath the waves during full moons.</rumor>
+                    <rumor>It is believed that Aruvalis' last ruler, Queen Lysara, still lives beneath the sea as a cursed spirit.</rumor>
+                    <rumor>A secret society may be searching for the city, hoping to reclaim its ancient magic.</rumor>
+                </rumors>
+            </legend>
+        </assistant:output>
+    </example>
+</lore>

@@ -1,0 +1,24 @@
+<traps>
+    <example>
+        <user:input>
+            Generate a deadly dungeon trap.
+        </user:input>
+        <score>9</score>
+        <score_reasons>
+            - GOOD: Well-designed mechanics and triggers.
+            - GOOD: Provides methods to detect or disarm the trap.
+            - BAD: Could include environmental storytelling to hint at the danger.
+        </score_reasons>
+        <assistant:output>
+            <trap>
+                <name>The Screaming Idol</name>
+                <trigger>Touching or removing the idol from its pedestal.</trigger>
+                <effect>Emits a deafening sonic pulse, dealing 3d8 thunder damage in a 30ft radius.</effect>
+                <countermeasures>
+                    <countermeasure>Detect Magic reveals faint transmutation energy.</countermeasure>
+                    <countermeasure>Disarming requires a successful DC 16 Arcana check.</countermeasure>
+                </countermeasures>
+            </trap>
+        </assistant:output>
+    </example>
+</traps>

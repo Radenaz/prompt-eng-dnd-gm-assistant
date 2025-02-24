@@ -1,0 +1,132 @@
+<player_characters>
+    <character>
+        <name>Niko</name> <!-- Character's name -->
+        <race>Human</race> <!-- Character's race -->
+        <class>Alchemist-Wizard</class> <!-- Character's class -->
+        <level>1</level> <!-- Character level (set as needed) -->
+
+        <ability_scores>
+            <strength>10</strength>
+            <dexterity>13</dexterity>
+            <constitution>12</constitution>
+            <intelligence>18</intelligence>
+            <wisdom>15</wisdom>
+            <charisma>11</charisma>
+        </ability_scores>
+
+        <background>
+            A modern-day man in his early 30s, Niko was an independent thinker living in Malang, East Java, 
+            with no ties to anything supernatural—until he suddenly inherited the knowledge and insights of 
+            a legendary scholar of magic, one who specialized in transmutation and alchemy. Now, in a world 
+            where magic has suddenly begun to manifest alongside science and technology, Niko finds himself 
+            holding secrets that the world—and perhaps even certain organizations—were not ready for.
+        </background>
+
+        <personality_traits>
+            Introverted, enjoys peace and quiet, dislikes being disturbed, independent learner, naturally 
+            curious, mildly perverted, philosophical at times. Smart but ruthless when needed, with an 
+            absent-minded genius streak. Dry, deadpan humor.
+        </personality_traits>
+
+        <alignment>Neutral Good</alignment> <!-- Lawful Good, Chaotic Neutral, etc. -->
+        <playstyle>
+            A methodical thinker who prefers analysis over brute force. Relies on alchemical transmutation 
+            and precise application of magic rather than direct combat. Avoids unnecessary conflict but 
+            will act decisively and efficiently when forced into action.
+        </playstyle>
+        <strengths>
+            - Master of transmutation and alchemy
+            - Possesses the ability "Substantiate!" allowing instant analysis of matter
+            - Highly intelligent and adaptable
+            - Can blend magic and science seamlessly
+        </strengths>
+        <weaknesses>
+            - Overthinks everything, sometimes leading to hesitation
+            - Lacks traditional combat skills or training
+            - Knowledge and abilities may put him on the radar of powerful organizations
+        </weaknesses>
+
+        <short_term_goal>Understanding his new abilities and their implications</short_term_goal> <!-- Immediate goal -->
+        <long_term_goal>None defined—currently just surviving and learning</long_term_goal> <!-- Long-term aspiration -->
+
+        <inventory>
+            <weapon>None</weapon> <!-- Relies on transmutation magic rather than weapons -->
+            <armor>Casual clothing</armor> <!-- No armor, just everyday wear -->
+            <items>
+                <item>Notebook filled with alchemical formulas</item>
+                <item>Pouch containing random minerals and metals</item>
+                <item>Modified smartphone with encrypted research notes</item>
+            </items>
+            <gold>None (modern currency applies)</gold> <!-- Gold isn't relevant in a modern setting -->
+        </inventory>
+
+        <spells> <!-- Only applicable for spellcasters -->
+            <cantrips>
+                <cantrip>Transmute</cantrip>
+                <cantrip>Identify</cantrip>
+                <cantrip>Light</cantrip>
+                <cantrip>Mage Hand</cantrip>
+                <cantrip>Control Flame</cantrip>
+                <cantrip>Ray of Frost</cantrip>
+                <cantrip>Mending</cantrip>
+                <cantrip>Message</cantrip>
+                <cantrip>Mold Earth</cantrip>
+                <cantrip>Shape Water</cantrip>
+                <cantrip>Thunderclap</cantrip>
+                <cantrip>True Strike</cantrip>
+                <cantrip>Chill Touch</cantrip>
+                <cantrip>Shocking Grasp</cantrip>
+                <cantrip>Acid Splash</cantrip>
+                <cantrip>Thaumaturgy</cantrip>
+            </cantrips>
+            <level1>
+                <level1>Alarm</level1>
+                <level1>Comprehend Languages</level1>
+                <level1>Expeditious Retreat</level1>
+                <level1>Jump</level1>
+                <level1>Longstrider</level1>
+                <level1>Shield</level1>
+                <level1>Silent Image</level1>
+                <level1>Inject Mana</level1>
+            </level1>
+            <level2>??</level2>
+            <level3>??</level3>
+        </spells>
+
+        <talents> <!-- Optional for special abilities or features or passives -->
+            <talent>
+                <talent_name>Substantiate!</talent_name>
+                <talent_description>Able to instantly discenr the properties of matter, both living or not.</talent_description>
+            </talent>
+
+            <talent>
+                <talent_name>Resilient Thinker</talent_name>
+                <talent_description>Will always have advantage on any concentration check, +2 in intelligence check. Able to enter deep focus and trance.</talent_description>
+            </talent>
+
+            <talent>
+                <talent_name>Transmutation Genius</talent_name>
+                <talent_description>He's not just good at it. He's the best at it. No limitations on how transmutation spells are applied</talent_description>
+            </talent>
+
+            <talent>
+                <talent_name>Alchemist Genius</talent_name>
+                <talent_description>Even the divines used to seek your council about this. Has unlocked all known alchemical recipes, methodologies, and research</talent_description>
+            </talent>
+
+            <talent>
+                <talent_name>Artificier as a side hobby</talent_name>
+                <talent_description>Though not his specialty, he is able to design magical devices.</talent_description>
+            </talent>
+
+        </talents>
+
+        <notes>
+            - Niko has no prior combat training but compensates with his intelligence and resourcefulness.
+            - His ability "Substantiate!" allows him to instantly discern the properties of matter, both living or not.
+            - He does not yet know why or how he inherited the scholar’s knowledge.
+            - While magic is emerging into the world, governments and secret agencies are monitoring anomalies. He's good at hiding
+            - Often do inner monologues, sometimes out loud.
+        </notes>
+    </character>
+</player_characters>

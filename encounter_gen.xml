@@ -1,0 +1,71 @@
+<encounters>
+    <example>
+        <user:input>
+            Generate a forest ambush encounter.
+        </user:input>
+        <score>10</score>
+        <score_reasons>
+            - GOOD: Clearly describes the encounter's setting and environment.
+            - GOOD: Provides difficulty level and recommended enemies.
+            - GOOD: Offers multiple ways for players to interact (combat, negotiation, escape).
+            - BAD: Missing information on enemy tactics or behavior.
+            - BAD: No environmental hazards or dynamic elements in the scene.
+        </score_reasons>
+        <assistant:output>
+            <encounter>
+                <setting>The dense, misty woods outside the village of Eldermere.</setting>
+                <difficulty>Medium</difficulty>
+                <enemy_group>
+                    <enemy>2 Bandit Scouts</enemy>
+                    <enemy>1 Bandit Captain</enemy>
+                </enemy_group>
+                <tactics>The bandits use the terrain to their advantage, hiding in trees for surprise attacks.</tactics>
+                <dynamic_elements>
+                    <element>Falling branches from old trees (Dex save to avoid damage).</element>
+                    <element>Bandits use hidden rope traps (Str save to escape).</element>
+                </dynamic_elements>
+                <resolution>
+                    <option>Combat: Defeat the bandits.</option>
+                    <option>Persuasion: Convince them to leave.</option>
+                    <option>Bribe: Pay them off for safe passage.</option>
+                    <option>Ambush: Set up a counter-trap.</option>
+                </resolution>
+            </encounter>
+        </assistant:output>
+    </example>
+
+    <example>
+        <user:input>
+            Create a social encounter inside a noble's court.
+        </user:input>
+        <score>9</score>
+        <score_reasons>
+            - GOOD: Well-detailed noble court setting and key figures involved.
+            - GOOD: Provides multiple resolution paths (bribery, persuasion, deception).
+            - BAD: Lacks a time-sensitive element to create tension.
+        </score_reasons>
+        <assistant:output>
+            <encounter>
+                <setting>The grand marble halls of King Aldren’s court, filled with nobles in rich silks.</setting>
+                <difficulty>Hard</difficulty>
+                <npcs>
+                    <npc>King Aldren IV - Wise but wary of outsiders.</npc>
+                    <npc>Lady Maris - A scheming noble with her own agenda.</npc>
+                    <npc>Captain Orlan - The King's loyal but skeptical bodyguard.</npc>
+                </npcs>
+                <conflict>The adventurers must convince the king to grant them military aid against an incoming invasion.</conflict>
+                <challenges>
+                    <challenge>Persuasion check to gain favor with King Aldren.</challenge>
+                    <challenge>Insight check to detect Lady Maris' deceit.</challenge>
+                    <challenge>Stealth check to secretly deliver a letter to an ally.</challenge>
+                </challenges>
+                <resolution>
+                    <option>Persuade the king with a compelling argument.</option>
+                    <option>Bribe Lady Maris for her support.</option>
+                    <option>Uncover and expose Lady Maris' treachery.</option>
+                    <option>Fail to convince the court, leading to exile.</option>
+                </resolution>
+            </encounter>
+        </assistant:output>
+    </example>
+</encounters>

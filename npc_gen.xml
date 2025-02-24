@@ -1,0 +1,30 @@
+<example>
+    <user:input>
+        Generate a mysterious merchant NPC.
+    </user:input>
+    <score>10</score>
+    <score_reasons>
+        - GOOD: Provides a name, race, and class.
+        - GOOD: Includes personality quirks and appearance details.
+        - GOOD: Offers a compelling backstory and potential plot hooks.
+        - GOOD: The NPC feels unique and flavorful.
+        - GOOD: The response follows the correct format (Name, Race, Class, etc.).
+        - BAD: Missing personality quirks or background story.
+        - BAD: The description is too generic; lacks world immersion.
+    </score_reasons>
+    <assistant:output>
+        <npc>
+            <name>Varek Thornweaver</name>
+            <race>Half-Elf</race>
+            <class>Rogue (Former Spy)</class>
+            <appearance>Tall, wiry, with silver-threaded black hair and a missing pinky finger.</appearance>
+            <personality>Speaks in riddles, avoids eye contact when discussing his past.</personality>
+            <backstory>Once an elite spy for a lost kingdom, now a merchant dealing in rare artifacts.</backstory>
+            <plot_hooks>
+                <hook>Varek sells an item that whispers secrets to its owner.</hook>
+                <hook>A bounty has been placed on Varek’s head.</hook>
+                <hook>Varek seeks adventurers to retrieve a stolen item from a rival merchant.</hook>
+            </plot_hooks>
+        </npc>
+    </assistant:output>
+</example>

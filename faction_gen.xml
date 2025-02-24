@@ -1,0 +1,26 @@
+<factions>
+    <example>
+        <user:input>
+            Create a secret assassin guild.
+        </user:input>
+        <score>10</score>
+        <score_reasons>
+            - GOOD: Provides a compelling history and purpose.
+            - GOOD: Includes different ranks and notable NPCs.
+            - BAD: Lacks potential internal conflicts or rivalries.
+        </score_reasons>
+        <assistant:output>
+            <faction>
+                <name>The Veilborn</name>
+                <motto>“Death is but a whisper in the night.”</motto>
+                <origin>The Veilborn were formed after the fall of an ancient empire, recruiting those cast aside by society.</origin>
+                <purpose>They exist to shape the world from the shadows, eliminating tyrants and corrupt rulers.</purpose>
+                <notable_members>
+                    <member>Shade Mistress Velora - The enigmatic leader, said to be immortal.</member>
+                    <member>Rendall "The Phantom" - A rogue assassin who questions the guild’s methods.</member>
+                </notable_members>
+                <rival_factions>The Holy Order of Dawn (Paladins dedicated to eradicating the Veilborn).</rival_factions>
+            </faction>
+        </assistant:output>
+    </example>
+</factions>

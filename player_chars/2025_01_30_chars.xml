@@ -1,0 +1,44 @@
+<player_characters>
+    <!-- Copy and modify this template for multiple characters -->
+    <character>
+        <name></name> <!-- Character's name -->
+        <race></race> <!-- Character's race -->
+        <class></class> <!-- Character's class and subclass if applicable -->
+        <level></level> <!-- Character level -->
+
+        <ability_scores>
+            <strength></strength>
+            <dexterity></dexterity>
+            <constitution></constitution>
+            <intelligence></intelligence>
+            <wisdom></wisdom>
+            <charisma></charisma>
+        </ability_scores>
+
+        <background></background> <!-- Character backstory -->
+        <personality_traits></personality_traits> <!-- Key personality traits -->
+        <alignment></alignment> <!-- Lawful Good, Chaotic Neutral, etc. -->
+        <playstyle></playstyle> <!-- Preferred combat or roleplay style -->
+        <strengths></strengths> <!-- Strengths in combat or story interactions -->
+        <weaknesses></weaknesses> <!-- Weaknesses or vulnerabilities -->
+
+        <short_term_goal></short_term_goal> <!-- Immediate goal in the adventure -->
+        <long_term_goal></long_term_goal> <!-- Long-term aspiration or quest -->
+        
+        <inventory>
+            <weapon></weapon> <!-- Main weapon -->
+            <armor></armor> <!-- Armor worn -->
+            <items></items> <!-- Additional items -->
+            <gold></gold> <!-- Starting gold -->
+        </inventory>
+
+        <spells> <!-- Only applicable for spellcasters -->
+            <cantrips></cantrips>
+            <level1></level1>
+            <level2></level2>
+            <level3></level3>
+        </spells>
+
+        <notes></notes> <!-- Any additional notes for the character -->
+    </character>
+</player_characters>

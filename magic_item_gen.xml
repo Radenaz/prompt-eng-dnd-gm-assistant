@@ -1,0 +1,26 @@
+<magic_items>
+    <example>
+        <user:input>
+            Create a legendary sword.
+        </user:input>
+        <score>10</score>
+        <score_reasons>
+            - GOOD: The weapon has a strong backstory.
+            - GOOD: Balanced mechanics and abilities.
+            - BAD: Missing possible drawbacks or curses.
+        </score_reasons>
+        <assistant:output>
+            <magic_item>
+                <name>Moonfang, Blade of the Night</name>
+                <type>Longsword</type>
+                <rarity>Legendary</rarity>
+                <history>Forged by elven smiths under the light of a blood moon, Moonfang is said to grant its wielder unnatural speed.</history>
+                <abilities>
+                    <ability>Nightstalker’s Strike - Grants advantage on attacks made in darkness.</ability>
+                    <ability>Shadow Step - Once per long rest, teleport up to 60 feet into a shadow.</ability>
+                </abilities>
+                <curse>Using Moonfang in combat under the full moon causes the wielder to enter a berserk state, attacking allies and enemies alike.</curse>
+            </magic_item>
+        </assistant:output>
+    </example>
+</magic_items>

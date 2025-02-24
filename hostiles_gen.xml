@@ -1,0 +1,66 @@
+<hostiles>
+    <example>
+        <user:input>
+            Generate a monstrous beast for a swamp encounter.
+        </user:input>
+        <score>10</score>
+        <score_reasons>
+            - GOOD: Provides a unique and terrifying creature concept.
+            - GOOD: Includes combat behavior and unique abilities.
+            - GOOD: Adds environmental interactions (e.g., fog, swamp hazards).
+            - BAD: No alternative resolution methods (negotiation, distraction, etc).
+        </score_reasons>
+        <assistant:output>
+            <hostile>
+                <name>Murkgul, the Swamp Terror</name>
+                <species>Aberration</species>
+                <challenge_rating>7</challenge_rating>
+                <appearance>A hulking, multi-eyed reptilian horror covered in black sludge, with tentacles sprouting from its back.</appearance>
+                <behavior>Ambush predator that lurks beneath the swamp’s surface, waiting to strike.</behavior>
+                <abilities>
+                    <ability>Acidic Slime - Any creature that strikes Murkgul in melee must make a DC 14 Constitution save or take 2d6 acid damage.</ability>
+                    <ability>Swamp Camouflage - Murkgul has advantage on Stealth checks while in murky water.</ability>
+                    <ability>Tentacle Grapple - Can grapple up to two creatures at once, requiring a DC 16 Strength check to escape.</ability>
+                </abilities>
+                <loot>
+                    <item>Murkgul’s Eye - Can be used to craft a potion of darkvision.</item>
+                    <item>Black Sludge Residue - Sells for 50gp to alchemists.</item>
+                </loot>
+            </hostile>
+        </assistant:output>
+    </example>
+
+    <example>
+        <user:input>
+            Generate a demonic warlord.
+        </user:input>
+        <score>9</score>
+        <score_reasons>
+            - GOOD: Creates a compelling, intelligent antagonist with long-term goals.
+            - GOOD: Gives multiple strategies beyond brute force (summoning, deception).
+            - BAD: Missing a psychological weakness or vulnerability.
+        </score_reasons>
+        <assistant:output>
+            <hostile>
+                <name>Lord Vexathar, the Crimson Tyrant</name>
+                <species>Demon (Balor Lord)</species>
+                <challenge_rating>16</challenge_rating>
+                <appearance>A towering figure wrapped in ever-burning chains, with glowing red eyes and molten cracks in his blackened skin.</appearance>
+                <behavior>Highly intelligent and strategic, prefers to manipulate others rather than engage in direct combat unless necessary.</behavior>
+                <abilities>
+                    <ability>Hellfire Chains - Can bind a target, causing them to take fire damage every turn unless they break free.</ability>
+                    <ability>Summon Lesser Demons - Once per long rest, can summon 2d6 lesser fiends.</ability>
+                    <ability>Dark Bargain - Can offer mortals power in exchange for servitude, tempting them to betray allies.</ability>
+                </abilities>
+                <motivations>
+                    <motivation>Seeks to overthrow the current demon hierarchy and rule the Nine Hells.</motivation>
+                    <motivation>Wants to collect ancient artifacts that enhance his power.</motivation>
+                </motivations>
+                <loot>
+                    <item>Flameheart Amulet - Grants resistance to fire damage.</item>
+                    <item>Crimson Contract - A soul-binding parchment signed in infernal blood.</item>
+                </loot>
+            </hostile>
+        </assistant:output>
+    </example>
+</hostiles>

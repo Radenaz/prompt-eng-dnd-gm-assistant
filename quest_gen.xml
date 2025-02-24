@@ -1,0 +1,28 @@
+<quests>
+    <example>
+        <user:input>
+            Generate a classic bounty hunt quest.
+        </user:input>
+        <score>10</score>
+        <score_reasons>
+            - GOOD: Includes quest giver, objective, location, and reward.
+            - GOOD: Offers alternative resolutions (combat, negotiation, deception).
+            - BAD: Lacks a potential plot twist to make the quest more dynamic.
+        </score_reasons>
+        <assistant:output>
+            <quest>
+                <name>Wanted: The Crimson Wolf</name>
+                <quest_giver>Captain Loran of the King’s Guard</quest_giver>
+                <location>The ruined village of Eldermoor</location>
+                <objective>Track down and capture or kill the bandit leader known as 'The Crimson Wolf.'</objective>
+                <complications>The Crimson Wolf is actually a former noble seeking revenge for an injustice.</complications>
+                <resolution>
+                    <option>Combat: Engage and defeat the bandit leader.</option>
+                    <option>Negotiation: Convince the Crimson Wolf to surrender.</option>
+                    <option>Deception: Forge evidence that the bandit leader is already dead.</option>
+                </resolution>
+                <reward>500 gold pieces and a favor from the King’s Guard.</reward>
+            </quest>
+        </assistant:output>
+    </example>
+</quests>
